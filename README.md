@@ -4,6 +4,6 @@ This is a simple shopping cart project created to practice what i learned about 
 
 Features:
 
-Add product to cart 
-remove product to cart
-Cart products count
+- [x]  Add product to cart 
+- [x]  remove product from cart
+- [x]  Cart products count
