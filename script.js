@@ -4,17 +4,17 @@
 var catalogProducts = [
     {
         id : 1,
-        name : "Camiseta Azul",
+        name : "Blue shirt",
         img : "./assets/shirt.jpg"
     },
     {
         id : 2,
-        name : "Tênis Nike",
+        name : "nike sneakers",
         img : "./assets/tenis.jpg"
     },
     {
         id : 3,
-        name : "Relógio",
+        name : "watch",
         img : "./assets/relogio.jpg"
     }
 ]
@@ -50,7 +50,7 @@ function renderProducts(){
 
         productTitle.innerText = product.name;
         productImage.src = product.img;
-        productButton.innerText = "Adicionar ao carrinho";
+        productButton.innerText = "Add to cart";
         productButton.onclick = ()  => { addToCart(product) };
 
         productDiv.classList.add("product");

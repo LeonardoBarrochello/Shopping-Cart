@@ -18,6 +18,8 @@ button {
 }
 
 .product{
+    display: flex;
+    flex-direction: column;
      max-width :300px;
      max-height : 300px;
 }
